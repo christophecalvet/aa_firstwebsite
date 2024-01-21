@@ -1,0 +1,23 @@
+#navigationbar,
+#navigationbar *{
+    list-style-type: none;
+    display: inline;
+    background-color: rgb(65, 206, 211);
+}
+
+#imagegallery{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color:green
+}
+
+h1, h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    color:red;
+}
